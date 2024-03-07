@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -8,23 +9,23 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
     color: #333;
-    
 }
 
 nav {
-    background-color: #1A73e8;
+    background-color: #1A7373;
 }
+
 nav a {
-    color: #f0f0f0;
+    color: #fff;
     text-decoration: none;
     display: block;
     text-align: center;
-    padding: 3px;
-}
-nav a:hover{
-    background-color: darkcyan;
+    padding: 7px;
 }
 
+nav a:hover {
+    background-color: #006666;
+}
 
 footer {
     background-color: #333;
@@ -32,42 +33,42 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
 .card {
     margin: 1rem 2vw;
+    
+
 }
 
-.card section{
+.card section {
     margin: 1rem 0;
     border: 1px solid black;
     background-color: rgb(216, 213, 213);
     overflow: hidden;
     border-radius: 10px;
-
 }
 
 .card h2 {
     background-color: #415541;
-    
-    color: #000;
-    padding: 4px;
+    color: #fff;
+    padding: 10px;
     text-align: center;
 }
 
 section ul li a {
     text-decoration-line: none;
     margin: 10px;
-
 }
 
-nav .active{
-    background-color: rgb(0,0,0,0.2);
+nav .active {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
-p{
+p {
     margin: 10px;
 }
 
-header span{
+header span {
     color: black;
     font-size: 20px;
 }
