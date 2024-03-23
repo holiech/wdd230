@@ -8,7 +8,6 @@ nav ul li{
     .menu {
         display: none;
     }
-
     .menu.show-menu {
         display: flex;
         flex-direction: column;
