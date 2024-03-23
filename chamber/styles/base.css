@@ -1,0 +1,235 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+header{
+    display: flex;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px 0;
+
+}
+
+ nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    text-align: right;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+main{
+    padding: 0px;
+}
+
+header img{
+    width: 80px;
+
+}
+
+
+
+.hero img{
+    width: 100%;
+    height: 500px;
+}
+
+.herodiv{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    padding: 20px;
+    margin: 2rem;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.herodiv h1{
+    font-size: 60px;
+}
+
+.herodiv p{
+    font-size: large;
+}
+
+
+.call-to-action{
+    background-color: rgba(0,0,255, 0.5);
+    padding: 20px;
+    text-align: center;
+    max-width: 500px;
+    margin: 2rem;
+
+    
+}
+
+.call-to-action h2, p{
+    color: #fff;
+    margin-right: 20px;
+}
+
+.button{
+    display: inline;
+    padding: 20px 20px;
+    background-color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.button:hover {
+    background-color: #cc5500;
+
+}
+
+.currentEvent{
+    background-color: rgb(48, 46, 46);
+    padding: 30px;
+    margin: 2rem;
+    max-width: 490px;
+    
+}
+
+.currentEvent h2{
+    color: white;
+    margin: 20px;
+    
+}
+
+.currentEvent ul{
+    list-style-type: none;
+}
+
+.currentEvent li a{
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+    
+}
+
+.currentEvent:hover {
+    background-color: #cc5500;
+
+}
+
+
+.weather-card{
+    background-color: rgb(48, 46, 46);
+    padding: 20px;
+    text-align: center;
+    padding: 30px;
+    margin: 2rem;
+    max-width: 490px;
+    font-weight: bold;
+
+
+}
+
+.weather-card:hover {
+    background-color: #cc5500;
+
+}
+
+.spotlight {
+    color: #000;
+}
+
+.spotlight p{
+    color: #000;
+     
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 6px;
+}
+
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight:700;
+    text-decoration: none;
+    background-color: #eee;
+    color: #000;
+    
+}
+
+#menu::before {
+    content: "≡";
+}
+
+nav {
+    background-color:#eee
+}
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.navigation li {
+    display: none;
+}
+.navigation a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+
+@media only screen and (min-width: 40em) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block; /* change state in small view */
+        flex: 1 1 100%;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    #menu {
+        display: none;
+    }
+}
+
+.social-link{
+    display: flex;
+}
+
+.social-link img{
+
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}

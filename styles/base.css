@@ -11,14 +11,10 @@ body {
     color: #333;
 }
 
-nav {
-    background-color: #1A7373;
-}
 
 nav a {
     color: #fff;
     text-decoration: none;
-    display: block;
     text-align: center;
     padding: 7px;
 }
@@ -71,4 +67,74 @@ p {
 header span {
     color: black;
     font-size: 20px;
+}
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight:700;
+    text-decoration: none;
+    background-color: #eee;
+    color: #000;
+    
+}
+
+#menu::before {
+    content: "≡";
+}
+
+nav {
+    background-color:#1A7373
+}
+
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.navigation li {
+    display: none;
+}
+.navigation a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+
+@media only screen and (min-width: 40em) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block; /* change state in small view */
+        flex: 1 1 100%;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    #menu {
+        display: none;
+    }
+}
+
+#dark-mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
 }

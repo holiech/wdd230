@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nairobi Chamber of Commerce Site Plan</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Raila Odinga Oliech - course assignment portal">
+    <meta name="author" content="Raila Oliech">
+    <meta name="og.type" content="Commerce">
+    <meta name="og.image" content="https://holiech.github.io/wdd230/images/holiechimg.jpg">
+    <meta name="og.url" content="https://holiech.github.io/wdd230/index.html">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.png">
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            width: 75px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+            list-style: none;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+
+        ul.menu li a{
+            display: block;
+            padding: .75rem 2vw;
+            
+        }
+
+        
+
+        .hamburger {
+            display: none;
+            font-size: 2rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+   
+    padding: .25rem 2vw;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .menu {
+                display: none;
+            }
+
+            .menu.show-menu {
+                display: block;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            .menu ul {
+                display: flex;
+                flex-direction: column;
+                
+            }
+        
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/mypict1.png" alt="logo">
+        <h2>Nairobi Chamber of Commerce</h2>
+        <button class="hamburger">&#9776;</button> <!-- Hamburger menu button -->
+    </header>
+    <nav class="menu"> <!-- Main menu -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Your main content here -->
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Raila Oliech Odinga Kenya</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getDate.js"></script>
+    <script>
+        // JavaScript for toggling the hamburger menu
+        const hamburgerBtn = document.querySelector('.hamburger');
+        const menu = document.querySelector('.menu');
+
+        hamburgerBtn.addEventListener('click', () => {
+            menu.classList.toggle('show-menu');
+        });
+    </script>
+</body>
+</html>
