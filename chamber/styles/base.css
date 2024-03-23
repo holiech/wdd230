@@ -115,7 +115,7 @@ header img{
 }
 
 .currentEvent li a{
-    color: white;
+    color: #eee;
     margin-bottom: 20px;
     text-decoration: none;
 
@@ -136,6 +136,7 @@ header img{
     margin: 2rem;
     max-width: 490px;
     font-weight: bold;
+    color: #eee;
 
 
 }
@@ -204,27 +205,6 @@ nav {
 
 #menu.show::before {
     content: "X";
-}
-
-
-@media only screen and (min-width: 40em) {
-    .navigation {
-        display: flex;
-    }
-    .navigation li {
-        display: block; /* change state in small view */
-        flex: 1 1 100%;
-    }
-    .navigation a {
-        text-align: center;
-    }
-    #menu {
-        display: none;
-    }
-}
-
-.social-link{
-    display: flex;
 }
 
 .social-link img{
