@@ -1,0 +1,29 @@
+main{
+    margin: 0 auto;
+    width: 400px;
+    background-color: #000;
+}
+
+p{
+    color: aqua;
+}
+
+img{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #000;
+    
+}
+
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

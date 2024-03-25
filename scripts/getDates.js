@@ -29,4 +29,9 @@ mode.addEventListener("click", () => {
 });
 
 
+let visit= localStorage.getItem('visit') || 0;
+document.getElementById('visit').textContent = visit;
+
+visit ++;
+localStorage.setItem('visit', visit);
 
