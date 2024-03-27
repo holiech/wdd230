@@ -23,3 +23,13 @@ nav ul li{
 .social-link{
     display: flex;
 }
+
+
+@media only screen and (min-width: 40em){
+    .gallary img:hover{
+        transform: scale(1.05);
+        
+    }
+
+    
+}
