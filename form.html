@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raila Oliech - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Raila Odinga Oliech - course assignment portal">
+    <meta name="author" content="Raila Oliech">
+    <link rel="icon" href="images/favicon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.pexels.com/photo/white-buildings-with-light-near-body-of-water-during-nighttime-37850">
+    <meta property="og:url" content="https://holiech.github.io/wdd230/index.html">
+    <meta property="og:title" content="Course Home Page">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    
+
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/holiechimg.webp" alt="Oliech Profile" width="75" height="100">
+            <span>Raila Oliech</span>
+        </div>
+        
+        
+    <a id="menu" href="#"></a>
+    <nav>
+        <ul class="navigation">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <div id="dark-mode">
+        🌑
+    </div>
+    <main>
+        <form action="record.html"method="get">
+            <fieldset>
+                <legend> User Information</legend>
+                <div>
+                    <label for="username">username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div>
+                    <label for="password">passward</label>
+                    <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" required>
+                </div>
+                <div>
+                    <label for="confirm">confirm</label>
+                    <input type="password" id="confirm" name="confirm" required>
+                </div>
+                
+                <div>
+                    <label for="email">email</label>
+                    <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+\-]+@byui\.edu">
+                </div>
+
+                <div>
+                    <label for="rating">page rating</label>
+                    <input type="range"  id="rating" name="rating" min="1" max="10" step="1">
+                    <output for="rating">5</output>
+                </div>
+                <div>
+                    <button type="submit">submit</button>
+                </div>
+            </fieldset>
+    
+        </form>
+
+
+
+
+    </main>
+    
+    <footer>
+        <p>&copy; <span id="year"></span> Raila Oliech Odinga Kenya </p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    
+</body>
+</html>

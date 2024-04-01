@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 1 Sales</title>
+    <style>
+        table {
+            width: 300px;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        caption {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption>Table 1 Sales</caption>
+    <thead>
+        <tr>
+            <th colspan="2" scope="colgroup">ACME Wildwest Service</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th scope="col">Basic</th>
+            <th scope="col">Premium</th>
+            <th scope="col">Deluxe</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Future1</td>
+            <td>X</td>
+            <td>X</td>
+            <td>Y</td>
+        </tr>
+        <tr>
+            <td>Future2</td>
+            <td>X</td>
+            <td>X</td>
+            <td>Y</td>
+        </tr>
+        <tr>
+            <td>Future3</td>
+            <td>X</td>
+            <td>X</td>
+            <td>Y</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
