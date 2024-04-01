@@ -1,9 +1,9 @@
 
 
 :root {
-    --form-background-color:white;
-    --form-border-color:#ccc;
-    --form-text-color: #333;
+    --form-background-color:#ffffff;
+    --form-border-color:#cccccc;
+    --form-text-color: #333333;
 }
 
 
@@ -39,7 +39,7 @@ input[type="range"]{
     border-radius: 5px;
     box-sizing: border-box;
     color: var(--form-text-colomr);
-    background-color: #eee;
+    background-color: #eeeeee;
     
 }
 
