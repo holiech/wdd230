@@ -40,12 +40,12 @@ nav ul li{
 @media only screen and (min-width: 40em){
     main{
         display: flex;
-        justify-content: space-between;
     }
 
     .benefit{
         display: flex;
-
+        flex-wrap: wrap;
+        justify-content: space-between;
 
     }
 
