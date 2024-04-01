@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    background-color:  #f0f0f0;
 }
 header{
     display: flex;
@@ -286,3 +286,87 @@ footer {
 
 }
 
+/* join.html css */
+form{
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+fieldset{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="password"],
+input[type="email"],
+input[type="range"],
+textarea{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #333333;
+    background-color: #eeeeee;
+    
+}
+
+input[type="radio"]{
+
+    margin-right: 5px;
+}
+
+
+
+
+input[type="submit"]{
+    padding:10px 20px;
+    background-color: #004FA3;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: #0056b3;
+}
+
+.benefit {
+    background-color: #ffffff;
+    
+    justify-content: space-between;
+    margin: 0 2rem;
+
+}
+
+.benefit-part{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.benefit h2{
+    text-align: center;
+}

@@ -8,3 +8,9 @@ hbutton.addEventListener('click', () => {
     ham.classList.toggle('show');
     hbutton.classList.toggle('show');
 });
+
+window.onload = function() {
+    const timestampInput = document.getElementById("timestamp");
+    const currentTimestamp = new Date().toISOString();
+    timestampInput.value = currentTimestamp;
+};

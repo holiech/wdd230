@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nairobi Chamber of Commerce Site Plan</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Raila Odinga Oliech - course assignment portal">
+    <meta name="author" content="Raila Oliech">
+    <link rel="icon" href="images/favicon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.pexels.com/photo/white-buildings-with-light-near-body-of-water-during-nighttime-37850/">
+    <meta property="og:url" content="https://holiech.github.io/wdd230/index.html">
+    <meta property="og:title" content="Nairobi Chamber of Commerce">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    
+</head>
+<body>
+    <header>
+        <img src="images/mypict1.png" alt="logo" width="75" height="75">
+        <h2>Nairobi Chamber of Commerce</h2>
+        <div class="social-link">
+            <a href="https://www.facebook.com/raila.oliech"><img src="images/facebook.png" alt="fb"></a>
+            <a href="https://web.whatsapp.com/"><img src="images/whatsapp.png" alt="whatsApp"></a>
+        </div>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="thankyou.html" method="get">
+            <fieldset>
+                <legend>Membership application form</legend>
+
+                <label for="username">First name:</label>
+                <input type="text" id="username" name="username">
+
+
+                <label for="lastName">Last name</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="position">Position/Title*</label>
+                <input type="text" id="position" name="position" required pattern="[A-Za-z\s-]{7,}">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="username@gmail.com">
+                
+
+                <label for="phone">Mobile</label>
+                <input type="tel" name="phone" id="phone" required>
+
+                <label for="business">Organization</label>
+                <input type="text" name="business" id="business" required>
+
+                <label>membership level</label>
+                <label><input type="radio" name="membership" value="NP" required>NP Membership is for non profit organizations and there is no fee</label>
+                <label><input type="radio" name="membership" value="bronze" required>Bronze Membership</label>
+                <label><input type="radio" name="membership" value="silver" required> Silver membership</label>
+                <label><input type="radio" name="membership" value="gold" required> Gold membership</label>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description"></textarea>
+
+                <input type="hidden" name="timestamp" id="timestamp">
+                <input type="submit" value="submit">
+            </fieldset>
+
+        </form>
+
+        <div class="benefit">
+            <div class="benefit-part">
+
+                <h2>NP Membership</h2>
+                <ul>
+                    <li>Special event</li>
+                    <li>Training opportunities</li>
+                    <li>Events Discount</li>
+                </ul>
+            </div>
+
+            <div class="benefit-part">
+
+                <h2>Bronze Membership</h2>
+                <ul>
+                    <li>Special event</li>
+                    <li>Training opportunities</li>
+                    <li>Advertisment spotlight</li>
+                    <li>Events Discount</li>
+                </ul>
+            </div>
+
+            <div class="benefit-part">
+
+                <h2>Silver Membership</h2>
+                <ul>
+                    <li>Special event</li>
+                    <li>Training opportunities</li>
+                    <li>Special event</li>
+                    <li>Events Discount</li>
+                    <li>Businesses directory listing</li>
+                </ul>
+            </div>
+
+
+            <div class="benefit-part">
+
+                <h2>Gold Membership</h2>
+                <ul>
+                    <li>Special event</li>
+                    <li>Training opportunities</li>
+                    <li>Special event</li>
+                    <li>Events Discount</li>
+                    <li>Businesses directory listing</li>
+                    <li>Priority support</li>
+                    <li>Newsletter subscription</li>
+                </ul>
+            </div>
+
+        </div>
+        
+    </main>
+    <footer>
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Email: odinga@gmail.com</p>
+            <p>Phone: +47935677811</p>
+            <p>Course: WDD 230</p>
+        </div>
+        <p>&copy; <span id="year"></span> Raila Oliech Odinga Kenya </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDate.js"></script>
+
+    
+</body>
+</html>
