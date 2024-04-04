@@ -1,9 +1,9 @@
 // links.js
 
 const baseURL = "https://holiech.github.io/wdd230/";
-const linksURL = "https://holiech.github.io/wdd230/data/links.json";
+const linksURL = "data/links.json";
 
-// Function to fetch and display activity links
+
 async function getLinks() {
   try {
     const response = await fetch(linksURL);
@@ -14,11 +14,10 @@ async function getLinks() {
   }
 }
 
-// Function to display activity links
+
 function displayLinks(weeks) {
   const activityList = document.querySelector("#activity-list");
-  activityList.innerHTML = ""; // Clear existing links
-  
+  activityList.innerHTML = ""; 
   weeks.forEach(week => {
     const weekHeader = document.createElement("h3");
     weekHeader.textContent = week.week;
@@ -38,5 +37,4 @@ function displayLinks(weeks) {
   });
 }
 
-// Call the getLinks function to fetch and display activity links
 getLinks();
