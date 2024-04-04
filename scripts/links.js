@@ -1,7 +1,7 @@
-// links.js
+
 
 const baseURL = "https://holiech.github.io/wdd230/";
-const linksURL = "data/links.json";
+const linksURL = "https://holiech.github.io/wdd230/data/links.json";
 
 
 async function getLinks() {
