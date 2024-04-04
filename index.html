@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    
-
+    <link rel="stylesheet" href="styles/weather.css">
 </head>
 <body>
     <header>
@@ -56,18 +55,21 @@
         <div class="card">
             <section>
                 <h2>Leaning activity</h2>
-                <ul>
-                    <li><a href="#">Learning Activity1</a></li>
-                    <li><a href="#">Learning Activity2</a></li>
-                    <li><a href="#">Learning Activity3</a></li>
-                    <li><a href="#">Learning Activity4</a></li>
+                <ul id="activity-list">
+                    <li><a href="#">Week01 Activity1</a></li>
+                    <li><a href="#">Week02 Activity2</a></li>
+                    <li><a href="#">Week03 Activity3</a></li>
+                    <li><a href="#">Week04 Activity4</a></li>
+                    <li><a href="#">Week05 Activity4</a></li>
                 </ul>
                 
             </section>
             <section>
-                <h2>Information</h2>
-                <p>weather Information ........</p>
-                <p>page visit, <span id="visit"></span> </p>
+                <h2>Weather Information</h2>
+                <div id="weather-icon"></div>
+                <div id="temperature"></div>
+                <div id="description"></div>
+                <p>page visit, <span id="visit"></span></p>
             </section>
         </div>    
     </main>
@@ -80,6 +82,8 @@
     </footer>
 
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/links.js"></script>
+    <script src="scripts/weather.js"></script>
     
 </body>
 </html>
