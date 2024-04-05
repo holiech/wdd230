@@ -11,6 +11,7 @@ main {
     background-color: #0000FF;
     font-family: Roboto, Helvetica, sans-serif;
     color: #ffffff;
+    justify-content: space-between;
 }
 
 
@@ -54,17 +55,12 @@ main {
     padding: 10px;
 }
 
-.list section img {
-    margin-bottom: 10px;
-    
-}
 button {
     padding: 0.5rem 1rem;
     border: none;
     background-color: #333333;
     color: #ffffff;
     cursor: pointer;
-    transition: background-color 0.3s;
     padding: 10px;
 }
 
@@ -73,8 +69,35 @@ button:hover {
 }
 
 #grid-view {
-    border-radius: 5px 0 0 5px;
+    border-radius: 0 5px 5px 0;;
 }
 
 #list-view {
     border-radius: 0 5px 5px 0;}
+
+    .menu{
+        
+        text-align: center;
+        
+    }
+    
+    button {
+        padding: 1rem;
+        font-weight: 700;
+        align-items: center;
+    }
+    
+    section {
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        padding: 10px;
+        
+    }
+    
+    
+    
+    
+    
