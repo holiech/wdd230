@@ -1,0 +1,78 @@
+
+
+
+ {
+    "members": [
+        {
+
+            "name": "Kosiga Enterprise",
+            "address": "179 nairobi kenya",
+            "phone": "+254799330011",
+            "website": "https://www.Kosiganterprise.com",
+            "image": "Kosiga.png",
+            "membership_level": "Gold",
+            "type": "Textile"
+           
+        },
+
+        {
+
+            "name": "Johnson Company",
+            "address": "202 Naironbi",
+            "phone": "+254730405920",
+            "website": "https://www.JohnsonCompany.com",
+            "image": "johnson.png",
+            "membership_level": "Silver",
+            "type": "Manufacturing"
+    
+        },
+
+        {
+
+            "name": "Elite travel",
+            "address": "272 Karren",
+            "phone": "+254789405929",
+            "website": "https://www.Elitetravel.com",
+            "image": "elite.png",
+            "membership_level": "Gold",
+            "type": "Travel"
+            
+        },
+
+        {
+
+            "name": "Modi travel",
+            "address": "272 Kisumu",
+            "phone": "+254769705427",
+            "website": "https://www.Moditravel.com",
+            "image": "Modi.png",
+            "membership_level": "Bronze",
+            "type": "Travel"
+            
+        },
+
+        {
+
+            "name": "Jubilee Company",
+            "address": "29-0011 Upperhill Kenya ",
+            "phone": "+254769795429",
+            "website": "https://www.Jubilee.com",
+            "image": "company.png",
+            "membership_level": "Silver",
+            "type": "Insurance"
+        },
+
+        {
+
+            "name": "GA Insurance",
+            "address": "454, Rongai  Nairobi",
+            "phone": "+254789795423",
+            "website": "https://www.GAInsurance.com",
+            "image": "GA.png",
+            "membership_level": "Bronze",
+            "type": "Insurance"
+        }
+
+        
+    ]
+ }

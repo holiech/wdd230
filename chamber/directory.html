@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nairobi Chamber of Commerce Site Plan</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Raila Odinga Oliech - course assignment portal">
+    <meta name="author" content="Raila Oliech">
+    <link rel="icon" href="images/favicon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.pexels.com/photo/white-buildings-with-light-near-body-of-water-during-nighttime-37850/">
+    <meta property="og:url" content="https://holiech.github.io/wdd230/index.html">
+    <meta property="og:title" content="Nairobi Chamber of Commerce">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    
+</head>
+<body>
+    <header>
+        <img src="images/mypict1.png" alt="logo" width="75" height="75">
+        <h2>Nairobi Chamber of Commerce</h2>
+        <div class="social-link">
+            <a href="https://www.facebook.com/raila.oliech"><img src="images/facebook.png" alt="fb"></a>
+            <a href="https://web.whatsapp.com/"><img src="images/whatsapp.png" alt="whatsApp"></a>
+        </div>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Directory</h1>
+        <div id="view-toggle"></div>
+        <button id="grid-view">grid view</button>
+        <button id="list-view"> list view</button>
+        <div id="member-container"></div>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Email: odinga@gmail.com</p>
+            <p>Phone: +47935677811</p>
+            <p>Course: WDD 230</p>
+        </div>
+        <p>&copy; <span id="year"></span> Raila Oliech Odinga Kenya </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDate.js"></script>
+    <script src="scripts/directory.js"></script>
+
+    
+</body>
+</html>
