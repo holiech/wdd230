@@ -1,7 +1,7 @@
-body{
+/* body{
     font-family: Arial, sans-serif;
     background-color:  #f0f0f0;
-}
+} */
 header{
     display: flex;
     justify-content: space-between; 
@@ -374,10 +374,18 @@ input[type="submit"]:hover{
 
 /* directory */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
     margin: 0 auto;
 	padding: 0.5rem;
 	max-width: 700px;
+    background-color: #0000FF;
+    font-family: Roboto, Helvetica, sans-serif;
     color: #ffffff;
     justify-content: space-between;
 }
