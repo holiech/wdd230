@@ -2,11 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const gridViewButton = document.getElementById("grid-view");
     const listViewButton = document.getElementById("list-view");
     const memberContainer = document.getElementById("member-container");
-    const baseURL = "https://holiech.github.io/wdd230/";
-    const linksURL = "https://holiech.github.io/wdd230/data/members.json"; 
-
     
-    fetch(linksURL)
+    fetch("data/members.json")
         .then(response => response.json())
         .then(data => {
             displayMembers(data.members);
