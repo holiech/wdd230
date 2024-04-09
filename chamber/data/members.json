@@ -9,7 +9,7 @@
             "address": "179 nairobi kenya",
             "phone": "+254799330011",
             "website": "https://www.Kosiganterprise.com",
-            "image": "Kosiga.png",
+            "image": "images/business2.jpg",
             "membership_level": "Gold",
             "type": "Textile"
            
@@ -21,7 +21,7 @@
             "address": "202 Naironbi",
             "phone": "+254730405920",
             "website": "https://www.JohnsonCompany.com",
-            "image": "johnson.png",
+            "image": "images/business1.jpg",
             "membership_level": "Silver",
             "type": "Manufacturing"
     
@@ -33,7 +33,7 @@
             "address": "272 Karren",
             "phone": "+254789405929",
             "website": "https://www.Elitetravel.com",
-            "image": "elite.png",
+            "image": "images/commerce_con7.webp",
             "membership_level": "Gold",
             "type": "Travel"
             
@@ -45,7 +45,7 @@
             "address": "272 Kisumu",
             "phone": "+254769705427",
             "website": "https://www.Moditravel.com",
-            "image": "Modi.png",
+            "image": "images/commerce1.jpg",
             "membership_level": "Bronze",
             "type": "Travel"
             
@@ -57,7 +57,7 @@
             "address": "29-0011 Upperhill Kenya ",
             "phone": "+254769795429",
             "website": "https://www.Jubilee.com",
-            "image": "company.png",
+            "image": "images/commerce_con4.webp",
             "membership_level": "Silver",
             "type": "Insurance"
         },
@@ -68,7 +68,7 @@
             "address": "454, Rongai  Nairobi",
             "phone": "+254789795423",
             "website": "https://www.GAInsurance.com",
-            "image": "GA.png",
+            "image": "images/commerce_con7.webp",
             "membership_level": "Bronze",
             "type": "Insurance"
         }

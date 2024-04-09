@@ -1,4 +1,3 @@
-
 async function getWeather() {
     const apiKey = "0aec6412eede92415f476e7030db63f4";
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Nairobi&appid=${apiKey}&units=metric`;
