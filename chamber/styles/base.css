@@ -89,7 +89,8 @@ header img{
     padding: 30px;
     text-align: center;
     max-width: 500px;
-    margin: 2rem;
+    margin: 0 auto;
+   
 
     
 }
@@ -136,16 +137,20 @@ header img{
 .currentEvent li a{
     color: #eee;
     margin-bottom: 20px;
-    text-decoration: none;
+    
 
     
 }
 
-.currentEvent:hover {
-    background-color: #cc5500;
 
+a {
+    text-decoration: none;
+    
 }
 
+a:hover {
+    text-decoration: underline;
+}
 
 .weather-card{
     background-color: rgb(48, 46, 46);

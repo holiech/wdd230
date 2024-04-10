@@ -1,15 +1,10 @@
-nav ul li{ 
-    display: inline;
-    margin-right: 40px;
-
-}
 
 @media only screen and (min-width: 40em) {
     .navigation {
         display: flex;
     }
     .navigation li {
-        display: block; /* change state in small view */
+        display: block; 
         flex: 1 1 100%;
     }
     .navigation a {
@@ -18,30 +13,6 @@ nav ul li{
     #menu {
         display: none;
     }
-}
-
-.social-link{
-    display: flex;
-}
-
-
-@media only screen and (min-width: 40em){
-    .gallary img:hover{
-        transform: scale(1.05);
-        
-    }
-
-    h1{
-        font-size: 2.5rem;
-    }
-
-    
-}
-
-
-
-
-@media only screen and (min-width: 40em){
     main{
         display: flex;
     }
@@ -50,10 +21,38 @@ nav ul li{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-
     }
 
+
+    .gallary img:hover{
+        transform: scale(1.05);
+        
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 40em){
+
+    .social-link{
+        display: flex;
+    }
+
+   
+
     
+
+    #menu::before {
+        content: "☰"; 
+        font-size: 2rem;
+    }
+
+
+    
+
+
     
 }
 
